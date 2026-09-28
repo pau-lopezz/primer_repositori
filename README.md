@@ -1,7 +1,5 @@
 # Projecte 2
 
-Pau López Zapater
+Nom: Pau López Zapater
 
-SMXB 2n
-
-Prova1
+Curs: SMXB 2n
