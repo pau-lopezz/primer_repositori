@@ -47,3 +47,18 @@ ping 8.8.8.8
 - [ ] La configuració de Netplan no mostra errors.
 - [ ] El servidor pot fer ping a la passarel·la.
 - [ ] El servidor té connexió amb altres dispositius de la xarxa.
+
+## Incidències i solucions
+
+| Incidència | Solució |
+|---|---|
+| Error de sintaxi al fitxer YAML | Revisar els espais i la indentació del fitxer. |
+| No apareix la IP configurada | Executar `sudo netplan apply` i tornar a comprovar amb `ip a`. |
+| Apareix `Destination Host Unreachable` | Revisar l'adreça IP, la passarel·la i la configuració de l'adaptador de VirtualBox. |
+| Netplan no aplica la configuració | Revisar el fitxer amb `sudo netplan try`. |
+
+## Recursos
+
+- [Documentació de Netplan](https://netplan.readthedocs.io/)
+- [Documentació d'Ubuntu Server](https://ubuntu.com/server/docs)
+- [Documentació de Markdown de GitHub](https://docs.github.com/en/get-started/writing-on-github)
