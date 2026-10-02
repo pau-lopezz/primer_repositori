@@ -41,3 +41,9 @@ ip a
 ping 8.8.8.8
 ```
 
+## Comprovacions
+
+- [ ] La interfície de xarxa mostra l'adreça IP configurada.
+- [ ] La configuració de Netplan no mostra errors.
+- [ ] El servidor pot fer ping a la passarel·la.
+- [ ] El servidor té connexió amb altres dispositius de la xarxa.
