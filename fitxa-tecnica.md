@@ -24,7 +24,7 @@ sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 5. Configurar la interfície amb una adreça IP fixa.
 
-![img](/primer_repositori/img/configuracio-netplan.png)
+![img](/img/configuracio-netplan.png)
 
 6. Guardar el fitxer amb Ctrl+O, prémer Enter i sortir amb Ctrl+X.
 
